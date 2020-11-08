@@ -1,0 +1,36 @@
+.answersItem {
+  list-style-type: none;
+  margin-bottom: 30px;
+  &_text {
+    margin-left: 50px;
+    font-family: "DIN Condensed";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+  input {
+    position: absolute;
+    widows: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0); 
+  }
+  .checkStyle {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    transform: translateY(-20%);
+    border: 2px solid #ffffff;
+    background: transparent;
+  }
+  input:checked + .checkStyle::before {
+    content: "";
+    background-image: url("../../../../../../images/main/accept.png");
+    width: 19px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

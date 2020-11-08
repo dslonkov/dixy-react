@@ -1,0 +1,71 @@
+.form {
+  text-align: center;
+  background: #ef7d00;
+  padding: 50px 60px 30px 60px;
+  margin-bottom: 70px;
+  &__title {
+    text-shadow: 1px 2px 0 #421d4b;
+    font-family: "Marker Felt";
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 70px;
+    width: 730px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+  }
+  &__body {
+    display: flex;
+    .input_name {
+      width: 360px;
+      border: 2px solid #ffffff;
+      margin-right: 30px;
+      background: transparent;
+      padding: 10px 20px;
+      font-family: "DIN Condensed";
+      font-size: 24px;
+      text-align: left;
+      color: #fff;
+      &::placeholder {
+        color: #fff;
+        font-family: "DIN Condensed";
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+    .input_mail {
+      width: 360px;
+      border: 2px solid #ffffff;
+      background: transparent;
+      padding: 10px 20px;
+      margin-right: 30px;
+      color: #fff;
+      font-family: "DIN Condensed";
+      font-size: 24px;
+      text-align: left;
+      &::placeholder {
+        color: #fff;
+        font-family: "DIN Condensed";
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+    .form_btn {
+      color: #fff;
+      font-size: 25px;
+      line-height: 44px;
+      text-align: center;
+      background-color: #491f53;
+      padding: 5px 35px;
+      text-transform: uppercase;
+    }
+  }
+}

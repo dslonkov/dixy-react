@@ -1,0 +1,22 @@
+.footer {
+  background: transparent;
+  text-align: center;
+  padding-bottom: 40px;
+  .coupon_terms {
+    color: #211e1f;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    .date {
+      color: #e61729;
+    }
+  }
+  .action_terms {
+    color: #211e1f;
+    font-family: "DIN Condensed";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    width: 1124px;
+  }
+}

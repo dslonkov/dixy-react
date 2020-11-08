@@ -1,0 +1,177 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  &__item1 {
+    width: 380px;
+    height: 380px;
+    background: transparent;
+    padding: 30px 40px 38px 0px;
+    text-align: left;
+    .item1_text {
+      text-shadow: 1px 2px 0 #421d4b;
+      font-family: 'Marker Felt';
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      .price {
+        font-size: 90px;
+      }
+    }
+    .subtext {
+      font-family: "Bebas Neue Bold";
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+    }
+  }
+  &__item2 {
+    width: 380px;
+    height: 380px;
+    padding: 50px;
+    background: #e8335e;
+    text-align: center;
+    .item2_text {
+      position: relative;
+      font-family: "Bebas Neue Bold";
+      font-size: 48px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 30px;
+      &::after {
+        content: "**";
+        position: absolute;
+        bottom: 40px;
+        right: 35px;
+        font-size: 24px;
+      }
+    }
+    .subtext {
+      font-size: 20px;
+      text-transform: uppercase;
+      position: relative;
+      &::after {
+        content: "*";
+        position: absolute;
+        bottom: 0px;
+        right: -10px;
+        font-size: 24px;
+      }
+    }
+  }
+  &__item3 {
+    width: 380px;
+    height: 380px;
+    padding: 30px;
+    background: #a8c514;
+    text-align: center;
+  }
+  &__item4 {
+    width: 380px;
+    height: 380px;
+    padding: 50px;
+    background: #491f53;
+    text-align: center;
+    .item4_text {
+      position: relative;
+      font-family: "Bebas Neue Bold";
+      font-size: 48px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 20px;
+      &::after {
+        content: "***";
+        position: absolute;
+        top: -13px;
+        right: -10px;
+        font-size: 24px;
+
+      }
+    }
+  }
+  &__item5 {
+    width: 760px;
+    height: 380px;
+    padding: 40px;
+    background: #ef7d00;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .bottle1 {
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    &::before {
+      content: '';
+      position: absolute;
+      background: url('../../images/header/cancel.png');
+      top: 0;
+      left: -20px;
+      width: 66px;
+      height: 66px; 
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      background: url('../../images/header/shadow1.png');
+      bottom: -8px;
+      right: 0;
+      left: 0;
+      width: 146px;
+      height: 23px;
+    }
+  }
+    .bottle2 {
+      display: inline-block;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        background: url('../../images/header/tick.png');
+        top: 10px;
+        right: -30px;
+        width: 68px;
+        height: 51px;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        background: url('../../images/header/shadow2.png');
+        bottom: -8px;
+        right: 0;
+        left: 0;
+        width: 146px;
+        height: 23px;
+      }
+    }
+
+    .bottle1_text {
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 43px;
+      text-align: right;
+      margin-right: 20px;
+      position: relative;
+      bottom: -38px;
+      width: 160px;
+    }
+
+    .bottle2_text {
+      position: relative;
+      bottom: -38px;
+      width: 160px;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 43px;
+      text-align: left;
+      margin-left: 20px;
+    }
+}

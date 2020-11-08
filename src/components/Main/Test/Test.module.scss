@@ -1,0 +1,31 @@
+.test {
+  display: flex;
+  margin-bottom: 100px;
+  &__descr {
+    width: 380px;
+    display: block;
+    &_title {
+      text-shadow: 1px 2px 0 #421d4b;
+      font-family: "Marker Felt";
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 90px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+    &_text {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+      width: 339px;
+    }
+  }
+  &__body {
+    width: 760px;
+    max-height: 380px;
+    background: #a8c514;
+    padding: 40px 20px 30px 50px;
+  }
+}
